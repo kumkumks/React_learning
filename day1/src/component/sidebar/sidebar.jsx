@@ -7,8 +7,8 @@ const Sidebar = () => {
     const [hoveredItem, setHoveredItem] = useState(null);
 
     return (
-        <div className="w-64 h-full bg-gray-100 p-5">
-            <div className='text-3xl flex justify-center items-center'>
+        <div className="w-64 h-dvh bg-gray-100 p-5">
+            <div className='text-2xl flex justify-center items-center'>
                 <FontAwesomeIcon icon={faStarOfDavid} />
                 <h6 className='font-semibold'>Donezo</h6>
             </div>
@@ -28,9 +28,9 @@ const Sidebar = () => {
                                     >
                                         <FontAwesomeIcon 
                                             icon={item.icon} 
-                                            className={`icon text-2xl ${isHovered ? 'text-green-800' : ''}`} 
+                                            className={`icon text-[1rem] ${isHovered ? 'text-green-800' : ''}`} 
                                         />
-                                        <p className='text-2xl'>{item.name}</p>
+                                        <p className='text-[1rem]'>{item.name}</p>
                                     </div>
                                 );
                             })
