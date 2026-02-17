@@ -7,13 +7,10 @@ const Navbar = () => {
     
   }
   return (
-    <div>
-        {/* <nav className='bg-gray-200 text-white p-4 flex justify-between items-center'>
-            <div className='flex items-center'>
-                <img  src={viteLogo} className="logo" alt="Vite logo" />  
-            </div>
+    <div className='w-full'>
+        <nav className='bg-gray-100 max-w-full rounded text-white p-4 flex justify-between items-center'>
             <Button />
-        </nav> */}
+        </nav>
     </div>
   )
 }
