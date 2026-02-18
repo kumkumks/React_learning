@@ -20,3 +20,8 @@
 .menu-item:hover .icon {
   @apply text-green-800;
 }
+
+.sidebars{
+  position: absolute;
+  z-index: 1;
+}

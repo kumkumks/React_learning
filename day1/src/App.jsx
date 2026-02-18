@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './component/navbar'
 import Sidebar from './component/sidebar/sidebar'
 import Card from './component/card'
+import Dashboard from './component/dashboard'
 
 
 
@@ -18,14 +19,9 @@ function App() {
           </div>
           <div>
             <Navbar />
-            <Card />
+            <Dashboard />
           </div>
-
         </div>
-
-        <h1 className='text-3xl font-bold underline text-center text-red-500'>
-          Hello world!
-        </h1>
       </div>
 
     </div>
