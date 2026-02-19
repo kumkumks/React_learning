@@ -10,7 +10,7 @@ const Navbar = () => {
   }
   return (
     <div className='w-full'>
-      <nav className='bg-gray-100 max-w-full rounded text-white p-4 flex justify-between items-center'>
+      <nav className='bg-gray-100 max-w-full rounded-br-2xl rounded-tr-2xl text-white p-4 flex justify-between items-center'>
         <div className='w-full'>
           <input className='bg-white w-[50%] text-black rounded px-4 py-2' placeholder='Search...' />
         </div>

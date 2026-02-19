@@ -25,3 +25,16 @@
   position: absolute;
   z-index: 1;
 }
+
+.button-style {
+  @apply  border border-green-900 rounded-full px-4 py-2 text-green-900 hover:bg-green-100 transition-colors duration-200;
+}
+
+.button-style:hover {
+  @apply
+  flex items-center gap-2 rounded-full 
+bg-gradient-to-r from-green-700 to-green-500 
+text-white shadow-md
+hover:from-green-800 hover:to-green-600 
+transition-all duration-300;
+}

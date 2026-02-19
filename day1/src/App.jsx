@@ -3,7 +3,7 @@ import Navbar from './component/navbar'
 import Sidebar from './component/sidebar/sidebar'
 import Card from './component/card'
 import Dashboard from './component/dashboard'
-
+import Header from './component/header'
 
 
 function App() {
@@ -13,12 +13,13 @@ function App() {
     <div>
 
       <div>
-        <div className='flex gap-3'>
-          <div>
+        <div>
+          <div className=' flex'>
             <Sidebar />
+             <Navbar />
           </div>
           <div>
-            <Navbar />
+            <Header />
             <Dashboard />
           </div>
         </div>

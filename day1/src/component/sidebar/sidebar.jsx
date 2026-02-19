@@ -17,7 +17,7 @@ const Sidebar = () => {
                 {
                     sidebarSections.map(section => (
                         <div key={section.title} className="text-xs text-gray-500">
-                            <p className='p-2 font-semibold mt-3'>{section.title}</p>
+                            <p className='p-2 font-semibold mt-4'>{section.title}</p>
                             {
                                 section.items.map(item => {
                                     return (
@@ -38,11 +38,11 @@ const Sidebar = () => {
                     ))
                 }
             </div>
-            <div className='bg-gray-100 p-3 h-12 w-11 cursor-pointer relative z-10'
+            <div className='bg-gray-100 p-3 h-20 rounded-bl-2xl rounded-tl-2xl w-11 cursor-pointer relative z-10'
                     onClick={() => setOpen(!open)}
                 >
                     <FontAwesomeIcon icon={faAngleRight} className='icon' />
-                </div>
+            </div>
         </div>
     );
 };
