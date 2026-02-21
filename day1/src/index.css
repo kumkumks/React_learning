@@ -38,3 +38,59 @@ text-white shadow-md
 hover:from-green-800 hover:to-green-600 
 transition-all duration-300;
 }
+
+.card{
+  @apply  w-60 border border-green-700 rounded-xl overflow-hidden shadow-sm cursor-pointer transition-all duration-300;
+}
+
+.card:hover .card-header{
+  @apply  bg-green-700 text-white;
+}
+
+.card:hover .card-header h5,
+.card:hover .card-header h2,
+.card:hover .card-header p{
+  @apply text-white;
+}
+
+.card-header{
+  @apply bg-white  p-4 border-gray-50 ;
+  @apply text-green-900 font-extralight text-sm;
+  @apply text-yellow-100 font-medium text-sm;
+}
+
+.badge-container {
+  @apply inline-flex items-center gap-2 bg-green-50 border border-green-200 py-1.5 px-3 rounded-full transition-all duration-300;
+}
+
+.badge-container:hover {
+  @apply bg-green-100 border-green-300 shadow-sm transform scale-105;
+}
+
+.badge-wrapper {
+  @apply flex items-center gap-1.5;
+}
+
+.badge-icon {
+  @apply text-green-600 text-xs transition-all duration-300;
+}
+
+.badge-container:hover .badge-icon {
+  @apply text-green-700 transform translate-y-[-2px];
+}
+
+.badge-text {
+  @apply text-green-700 font-medium text-xs transition-all duration-300;
+}
+
+.badge-container:hover .badge-text {
+  @apply text-green-800;
+}
+
+.badge-description {
+  @apply text-gray-600 text-sm transition-all duration-300;
+}
+
+.card:hover .badge-description {
+  @apply text-white;
+}
