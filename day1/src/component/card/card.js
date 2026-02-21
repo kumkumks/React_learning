@@ -31,7 +31,7 @@ export const Card_data=[
     "title": "Pending Project",
     "value": 2,
     "trend": null,
-    "trendValue": null,
+    "trendValue": 7,
     "trendText": "On Discuss",
     "highlight": false
   }
