@@ -56,7 +56,7 @@ const ProjectAnalyticsChart = () => {
   };
 
   return (
-    <div className="bg-white p-5 rounded-2xl shadow-sm w-full max-w-xl">
+    <div className="bg-white p-5 rounded-2xl shadow-sm w-full max-w-xl me-3">
       <h3 className="text-lg font-semibold mb-4">Project Analytics</h3>
       <Bar data={data} options={options} />
     </div>

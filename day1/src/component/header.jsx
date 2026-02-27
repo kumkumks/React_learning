@@ -10,8 +10,9 @@ const Header = () => {
           <h1 className='text-2xl font-semibold text-gray-700'>Dashboard</h1>
           <p className='font-light text-green-900'>Plain,prioritize,and accomplish your task with ease</p>
         </div>
-        <div>
-          <Button />
+        <div className='flex items-center w-auto mt-1'>
+          <Button text='Add Project' />
+          <Button text='Import Data' />
         </div>
       </div>
     </>
