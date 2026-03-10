@@ -6,7 +6,7 @@ const Menu = () => {
     <div className='flex items-center'>
         <ul className='space-x-4 flex'>
            {MenuData.map((item) => (
-            <li key={item.id} className='text-gray-700 hover:text-gray-900 cursor-pointer transition duration-300'>
+            <li key={item.id} className='text-white font-bold hover:text-orange-400 cursor-pointer transition duration-300'>
               {item.name}
             </li>
            ))}

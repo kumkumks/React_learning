@@ -29,7 +29,7 @@ export const serviceTabsData = [
     image: cardtab,
     imageAlt: 'Web development services',
     bgColor: 'bg-indigo-200',
-    imagePosition: 'left'
+    imagePosition: 'Left'
   },
   {
     id: 2,
@@ -39,6 +39,6 @@ export const serviceTabsData = [
     image: cardtab2,
     imageAlt: 'Why choose our services',
     bgColor: 'bg-red-200',
-    imagePosition: 'right'
+    imagePosition: 'Right'
   }
 ];
