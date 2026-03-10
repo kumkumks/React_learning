@@ -1,12 +1,15 @@
 import React from 'react'
+import { MenuData } from '../../content'
 
 const Menu = () => {
   return (
     <div className='flex items-center'>
         <ul className='space-x-4 flex'>
-            <li className='text-gray-300 hover:text-green-500 cursor-pointer transition-all duration-300'>Home</li>
-            <li className='text-gray-300 hover:text-green-500 cursor-pointer transition-all duration-300'>About</li>
-            <li className='text-gray-300 hover:text-green-500 cursor-pointer transition-all duration-300'>Contact</li>
+           {MenuData.map((item) => (
+            <li key={item.id} className='text-gray-700 hover:text-gray-900 cursor-pointer transition duration-300'>
+              {item.name}
+            </li>
+           ))}
         </ul>
     </div>
   )

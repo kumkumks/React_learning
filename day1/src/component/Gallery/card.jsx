@@ -1,8 +1,5 @@
 import React, { Children } from 'react'
-
-import card1 from '../assets/card1.jfif'
-import card2 from '../assets/card2.jfif'
-
+import { cardData } from '../../content'
 
 
 const Card = ({children}) => {
